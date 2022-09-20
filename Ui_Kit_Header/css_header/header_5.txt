@@ -1,0 +1,37 @@
+/* confic width content */
+.content-header{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}
+/* padding between menu */
+.navbar-nav .nav-item .item{
+  padding: 15px;
+}
+.navbar-nav .nav-item{
+  margin:auto auto; 
+}
+
+.navbar-toggler{
+  display: none;
+}
+.logo{
+  display: none;
+}
+
+@media screen and (max-width : 991px){
+  .nav-ul{
+    display: none;
+  }
+  .navbar-toggler{
+    display: inline-flex;
+  }
+  .logo{
+    display: inline-flex;
+  }
+}
+/* hidden menu btn toggler */
+@media screen and (min-width : 991px){
+.collapse {
+    display: none !important;
+}
+}

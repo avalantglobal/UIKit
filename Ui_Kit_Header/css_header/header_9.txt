@@ -1,0 +1,45 @@
+.div-icon-search{
+  display: none;
+}
+/* padding between menu */
+.navbar-nav .nav-item .item{
+  padding: 8px;
+}
+.navbar-toggler{
+  display: none;
+}
+@media screen and (max-width : 991px) {
+
+  .input-group{
+    display: none;
+  }
+  .div-icon-search{
+    display: inline-flex;
+    
+  }
+  .nav-ul{
+    display: none;
+  }
+
+  .texthide{
+    display: none;
+  }
+
+.navbar-toggler{
+  display: inline-flex;
+}
+}
+
+/* confic width content */
+.content-header{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}
+
+
+/* hidden menu btn toggler */
+@media screen and (min-width : 991px){
+.collapse {
+    display: none !important;
+}
+}

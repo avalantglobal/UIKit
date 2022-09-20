@@ -1,0 +1,19 @@
+.border{
+  border:1px solid #EEE;
+  border-radius: 7px;
+  padding: 20px; 
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+.div-profile{
+  position: absolute;
+  top: -50px;
+  right: 15px
+}
+@media (max-width:991px){
+  .hide{
+    display: none
+  }
+}

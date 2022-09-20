@@ -1,0 +1,29 @@
+.gallery_scroller {
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    /* height: 500px; */
+    -webkit-overflow-scrolling: touch;
+}
+
+.gallery {
+    position: relative;
+    /* max-width: 800px; */
+    padding: 0 10;
+}
+.gallery_scroller div {
+    scroll-snap-align: center;
+    margin: 10px;
+    position: relative;
+}
+
+.item {
+    height: auto;
+    width: 100%;
+}
+
+.magin-img{
+  margin-right: -600px !important;
+}

@@ -1,0 +1,43 @@
+h1{
+  font-family: DM Sans Bold;
+}
+
+p{
+  font-family: DM Sans regular;
+}
+
+.border{
+ border: 1px solid #EEEEEE;
+ border-radius: 7px;
+ opacity: 1;
+ padding: 30px;
+}
+ 
+button{
+  font-family: DM Sans Bold;
+}
+
+.active{
+  background-color: #0076FF;
+  color: #FFFFFF;
+}
+
+.active p{
+  color: #FFFFFF;
+}
+
+.active .ow-confirm{
+    color: #FFFFFF;
+}
+
+.active .ow-cancel{
+    color: #489DFF;
+}
+
+.ow-confirm{
+  color: #0076FF;
+}
+
+.ow-cancel{
+  color: #CCCCCC;
+}

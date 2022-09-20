@@ -1,0 +1,43 @@
+.profile-img{
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 7px; 
+}
+
+.div-profile-img{
+  padding: 15px 0px 15px 0px;
+}
+
+.div-description{
+  padding:15px 0px 15px 0px;
+  width: auto !important;
+}
+
+
+@media (max-width: 1199px){
+  .profile-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px; 
+  }
+}
+
+@media (max-width: 991px){
+  .profile-img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 7px; 
+  }
+}
+
+@media (max-width: 378px){
+  .profile-img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 7px; 
+  }
+}

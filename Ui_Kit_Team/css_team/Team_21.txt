@@ -1,0 +1,11 @@
+.overflow{
+    overflow-x: auto;
+}
+.overflow::-webkit-scrollbar{
+  display: none;
+}
+  
+.border{
+  border: 1px solid #EEEEEE;
+  border-radius: 7px;
+}

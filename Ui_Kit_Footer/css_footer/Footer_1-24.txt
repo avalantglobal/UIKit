@@ -1,0 +1,5 @@
+/* confic width content */
+.content-footer{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}

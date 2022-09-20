@@ -1,0 +1,19 @@
+.icon{
+  display: none;
+}
+
+@media screen and (max-width : 991px){
+    .icon{
+      display: unset;
+    }
+
+    .NavIcon{
+      display: none;
+    }
+
+}
+/* confic width content */
+.content-header{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}

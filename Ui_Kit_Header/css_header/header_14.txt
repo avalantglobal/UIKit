@@ -1,0 +1,9 @@
+/* confic width content */
+.content-header{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}
+
+.nav-item{
+  margin : auto auto;
+}

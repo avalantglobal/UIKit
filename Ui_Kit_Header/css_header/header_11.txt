@@ -1,0 +1,37 @@
+/* hidden menu before search */
+@media screen and (max-width : 991px){
+  /* btn search */
+ .btn-search{
+   display: none;
+ }
+ /* text menu */
+ .item{
+   display: none;
+ }
+ /* show hamburger menu */
+ .navbar-toggler{
+  display: inline-flex !important;
+}
+}
+
+/* hidden menu btn toggler */
+@media screen and (min-width : 991px){
+.collapse {
+    display: none !important;
+}
+}
+
+/* hind btn hamburger */
+.navbar-toggler{
+  display: none;
+}
+
+/* confic width content */
+.content-header{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}
+/* padding between menu */
+.navbar-nav .nav-item .item{
+  padding: 8px;
+}

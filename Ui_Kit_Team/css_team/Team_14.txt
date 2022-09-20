@@ -1,0 +1,24 @@
+.border{
+  border: 1px solid #EEEEEE;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.img-profile{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width :991px){
+  .col-button{
+    display: none;
+  }
+}
+

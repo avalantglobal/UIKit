@@ -1,0 +1,43 @@
+.overflow{
+  overflow-x: auto;
+}
+
+
+.thumbnail {
+  position: relative;
+  border: none;
+  border-radius: 7px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  display: flex;
+  border-radius: 7px; 
+  max-width: 100%;
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.thumbnail:hover .ow{
+    color: #3392FF;
+    transform: scale(1);
+}
+
+.thumbnail:hover{
+  background-color: #0076FF;
+  transform: scale(1);
+}
+
+

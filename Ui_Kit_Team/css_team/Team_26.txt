@@ -1,0 +1,54 @@
+.div-proflie{
+  max-width: 870px;
+  height: 656px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EEEEEE; 
+}
+
+.div-text{
+  position: absolute;
+  max-width:500px; 
+  margin-top:200px;
+  padding-left: 15px;
+  padding-right: 30px
+}
+
+.div-content{
+  position: relative;
+}
+
+.div-user{
+  position: absolute;
+  right: 60px;
+  margin-top:200px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  max-width: 100%;
+}
+
+.overflow{
+  overflow-x: scroll; 
+}
+.overflow::-webkit-scrollbar{
+  display: none;
+}
+
+.user{
+  margin-right:15px; 
+}
+
+@media (max-width:1199px){
+  .div-user{
+    right: 0px;
+  }
+}
+
+@media (max-width:991px){
+  .div-user{
+    flex-direction: row;
+    right: unset;
+    margin-top: 580px;  
+  }
+}

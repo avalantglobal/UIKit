@@ -1,0 +1,32 @@
+.overflow{
+    overflow-x: auto;
+}
+
+.content{
+  margin: auto;
+  max-width: 1440px;
+}
+
+.thumbnail {
+  position: relative;
+  border: none;
+  border-radius: 7px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  max-width: 100%;
+  color: #FFFFFF;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
+  transform: scale(1);
+}

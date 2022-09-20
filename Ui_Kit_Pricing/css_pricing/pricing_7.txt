@@ -1,0 +1,40 @@
+h1{
+  font-family: DM Sans Bold;
+}
+
+p{
+  font-family: DM Sans regular;
+}
+
+button{
+  font-family: DM Sans Bold;
+  background: #FFFFFF;
+  color: #0076FF;
+  outline: 1px solid #0076FF;
+}
+
+.border{
+ border: 1px solid #EEEEEE;
+ border-radius: 7px;
+ opacity: 1;
+ padding: 40px;
+}
+
+.active{
+  background-color: #0076FF;
+  color: #FFFFFF;
+}
+
+.active p{
+  color: #FFFFFF;
+}
+
+.active button{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.overflow{
+  overflow-x:auto; 
+}

@@ -1,0 +1,11 @@
+.overflow{
+  overflow-x:auto;
+}
+
+.overflow::-webkit-scrollbar{
+  display: none;
+}
+
+.img-cover{
+  object-fit: cover;
+}

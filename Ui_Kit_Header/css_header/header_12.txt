@@ -1,0 +1,19 @@
+
+  /* hidden menu before search */
+@media screen and (max-width : 991px){
+ /* text menu */
+ .item{
+   display: none;
+ }
+}
+
+
+/* confic width content */
+.content-header{
+  width: min(100% - 2rem,1170px);
+  margin : auto;
+}
+/* padding between menu */
+.navbar-nav .nav-item .item{
+  padding: 8px;
+}

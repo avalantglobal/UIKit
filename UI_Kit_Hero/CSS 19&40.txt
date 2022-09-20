@@ -1,0 +1,6 @@
+#btnAppstore{
+  background:url(./img/11e365d0-7c08-31e6-a6b8-b67d775efdae.png)
+}
+#btnGoogleplay{
+  background:url(./img/ae5b9888-273b-3b91-9a92-2deb601981b9.png)
+}

@@ -1,0 +1,34 @@
+.overflow{
+  overflow-x: auto;
+  padding: 15px;
+}
+.ow-confirm{
+  color: #0076FF;
+}
+
+.ow-cancel{
+  color: #CCCCCC;
+}
+
+tbody tr th {
+  font-family: DM Sans regular;
+  color: #999999;
+}
+
+thead tr th{
+  font-family: DM Sans Bold;
+  color: #333333;
+  font-size: 24px;
+  text-align: center;
+}
+
+.plans {
+  font-family: DM Sans regular;
+  color: #333333;
+  font-size: 16px;
+  text-align: left;
+}
+
+tbody tr td{
+  text-align: center;
+}

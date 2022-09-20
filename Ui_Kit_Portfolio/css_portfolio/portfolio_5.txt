@@ -1,0 +1,12 @@
+.div-select{
+  display: none
+}
+
+@media (max-width: 992px){
+  .div-select{
+    display: flex
+  }
+  .div-button-group{
+    display: none;
+  }
+}

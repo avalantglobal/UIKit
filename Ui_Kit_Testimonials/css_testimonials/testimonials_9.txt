@@ -1,0 +1,61 @@
+.div-profile-img{
+  height: 256px;
+  background-color: #EEEEEE;
+  width: 100%;
+}
+
+.div-description{
+  position: relative;
+  padding: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  height: 256px;
+  width: 100%;
+}
+
+.triangle-rigth{
+ height: 0px;
+ width: 0px;
+ border: 10px solid transparent;
+ border-width:20px 30px;
+ border-left-color: #FFFFFF;
+ position: absolute;
+  top: calc(50% - 30px);
+  left: 0px;
+}
+
+.triangle-left{
+ height: 0px;
+ width: 0px;
+ border: 10px solid transparent;
+ border-width:20px 30px;
+ border-right-color: #FFFFFF;
+ position: absolute;
+  bottom: calc(50% - 30px);
+  right: 0px;
+}
+
+.triangle-top{
+ height: 0px;
+ width: 0px;
+ border: 10px solid transparent;
+  border-width:20px 30px;
+ border-bottom-color: #FFFFFF;
+ position: absolute;
+ left: calc(50% - 30px);
+ bottom: 256px;
+ display: none;
+}
+
+
+@media (max-width:991px){
+  .triangle-top{
+    display: block
+  }
+  .triangle-left, .triangle-rigth{
+    display: none;
+  }
+}
+
+
+

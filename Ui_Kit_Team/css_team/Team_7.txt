@@ -1,0 +1,57 @@
+.thumbnail {
+  position: relative;
+  border: none;
+  border-radius: 0;
+  display: block;
+}
+
+.thumbnail img {
+  margin-bottom: 0px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0076FF;
+  margin :15px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px; 
+   width: 270px;
+  max-width: 100%;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
+}
+
+.profile-img{
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 7px; 
+}
+
+.div-profile-img{
+  padding: 15px 0px 15px 0px;
+}
+
+.div-description{
+  padding:15px 0px 15px 0px;
+  width: auto !important;
+  text-align: left;
+}
+
+p{
+  font-family: DM Sans Regular;
+}
+
+h1{
+  font-family: DM Sans Bold;
+}

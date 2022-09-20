@@ -1,0 +1,36 @@
+.div-img-group{
+  height: 360px;
+  border-radius: 7px;
+}
+
+.div-description{
+  width: 500px !important;
+}
+
+p{
+  font-family: DM Sans Regular;
+}
+
+h1{
+  font-family: DM Sans Bold;
+}
+
+@media (max-width: 1199px){
+  .div-description{
+    width: auto !important;
+  }
+}
+
+@media (max-width: 991px){
+  .div-img-group{
+    height: 360px;
+    border-radius: 7px;
+  }
+}
+
+@media (max-width: 378px){
+  .div-img-group{
+    height: 200px;
+    border-radius: 7px;
+  }
+}

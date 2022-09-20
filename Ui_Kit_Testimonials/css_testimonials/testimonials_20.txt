@@ -1,0 +1,4 @@
+.div-text{
+  max-width: 470px;
+  margin: auto !important;
+}

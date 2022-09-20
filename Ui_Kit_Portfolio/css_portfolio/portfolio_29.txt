@@ -1,0 +1,25 @@
+.link-prev{
+  background-color: white;
+  border-radius: 50%;
+  width: 48px;
+  height:  48px;
+  margin: auto auto auto 10px;
+  opacity: 1
+}
+
+.link-next{
+  background-color: white;
+  border-radius: 50%;
+  width: 48px;
+  height:  48px;
+  margin: auto 10px auto auto;
+  opacity: 1
+}
+
+.div-text{
+ border: 1px solid #EEEEEE;
+}
+
+.carousel .carousel-inner .carousel-item img{
+  border-radius: 7px; 
+}

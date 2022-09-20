@@ -1,0 +1,11 @@
+.div-icon{
+  position: absolute;
+  bottom:-30px;
+  right: 15px;
+
+}
+
+.div-profile{
+  position: relative;
+  display: block
+}

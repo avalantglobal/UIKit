@@ -1,0 +1,36 @@
+.div-profile-img{
+  height: 350px;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+
+.div-description{
+  position: relative;
+  text-align: center;
+  padding: 80px 40px;
+  height: 350px;
+}
+
+.triangle-bottom{
+ height: 0px;
+ width: 0px;
+ border: 10px solid transparent;
+ border-width:20px 30px;
+ border-top-color: #FFFFFF;
+ position: absolute;
+ left: calc(50% - 30px);
+ bottom: -40px;
+}
+
+.triangle-top{
+ height: 0px;
+ width: 0px;
+ border: 10px solid transparent;
+border-width:20px 30px;
+ border-bottom-color: #FFFFFF;
+ position: absolute;
+ left: calc(50% - 30px);
+ top: -40px;
+}
+
+

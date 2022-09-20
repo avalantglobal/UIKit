@@ -1,0 +1,40 @@
+@media (max-width:1440px){
+  .position-absolute{
+    width: 770px !important; 
+  }
+}
+
+@media (min-width:1440px) {
+  .position-absolute{
+    width: 770px !important; 
+  }
+}
+
+@media (max-width:1199px){
+  .position-absolute{
+    width: 670px !important; 
+  }
+}
+
+@media (max-width:991px){
+  .position-absolute{
+    width: auto !important; 
+    position: relative !important; 
+  }
+}
+
+.position-absolute{
+  position: absolute;
+  z-index: 4;
+}
+
+.border{
+  border: 1px solid #EEE;
+  border-radius: 7px;
+  padding: 40px;
+  background-color: #FFF;
+}
+
+.img-cover{
+  object-fit: cover;
+}

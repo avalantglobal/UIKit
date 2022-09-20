@@ -1,0 +1,13 @@
+.border{
+  border: 1px solid #EEE;
+  border-radius: 7px; 
+}
+
+.positon-absolute{
+ position: absolute;
+ top:5px;
+}
+
+.positon-relative{
+ position: relative
+}

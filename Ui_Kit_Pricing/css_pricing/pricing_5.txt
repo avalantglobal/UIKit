@@ -1,0 +1,49 @@
+h1{
+  font-family: DM Sans Bold;
+}
+
+p{
+  font-family: DM Sans regular;
+}
+
+button{
+  font-family: DM Sans Bold;
+}
+
+.border{
+ border: 1px solid #EEEEEE;
+ border-radius: 7px ;
+ opacity: 1;
+ margin-bottom: 20px;
+ margin-top: 20px; 
+}
+
+.head{
+ border-radius: 7px 7px 0px 0px; 
+ padding: 60px 0px 40px 0px;
+ color:#FFFFFF;
+ background-color: #0076FF;
+ 
+}
+
+.body{
+ padding: 30px;
+}
+
+.active{
+  margin: 0px;
+}
+
+@media (max-width: 991px){
+ .border{
+   margin: 0px;
+ }
+}
+
+.ow-confirm{
+  color: #0076FF;
+}
+
+.ow-cancel{
+  color: #CCCCCC;
+}
