@@ -1,0 +1,10 @@
+.inner_position_top{
+    position:absolute;
+    display:block;    
+    top: 30px;
+    left: 20px;
+}
+
+.holder_wrap_img{
+    position:relative;
+}
